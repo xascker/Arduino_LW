@@ -144,8 +144,8 @@ void loop() {
       drawCol(x, map(infoArr[i].hum, minHum, maxHum, 40, 23), 40);
       drawCol(x, map(infoArr[i].pres, minPres, maxPres, 63, 46), 63);
 */
-      drawCol(x, map(infoArr[i].temp, minTemp, maxTemp, 23, 0), 23);      //рисуем г-к температуры
-      drawCol(x, map(infoArr[i].pres, minPres, maxPres, 63, 40), 63);     //рисуем г-к давление
+      drawCol(x, map(infoArr[i].temp, minTemp, maxTemp, 28, 0), 28);      //рисуем г-к температуры
+      drawCol(x, map(infoArr[i].pres, minPres, maxPres, 63, 33), 63);     //рисуем г-к давление
       
       z++;
       if (z > 15) {z = 0; x++;} //6 столбиков по 15 точек, примерно 2 часа
