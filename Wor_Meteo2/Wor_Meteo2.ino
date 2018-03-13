@@ -124,7 +124,7 @@ void loop() {
 
     myOLED.printNumI(round((minPres + 1380) / 2.0), 0, 55);
 //    myOLED.printNumI(round((maxPres + 1380) / 2.0), 0, 47);
-    myOLED.printNumI(pres, 0, 45);
+    myOLED.printNumF(pres, 1, 0, 45);
     myOLED.printNumI(round((maxPres + 1380) / 2.0), 0, 34);
 
     int z = 0;
